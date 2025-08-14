@@ -7,23 +7,5 @@ Proyecto listo para usar inspirado en el layout **Abstract** de Frontend Practic
 - `reto/anim` – Escena animada + efecto de sonido.
 - `reto/texto` – Textarea con contador de caracteres en tiempo real.
 
-## Uso
 
-Abre `index.html` en tu navegador o sirve la carpeta con un servidor estático.
 
-## Estructura
-
-```
-/abstract-reto
-  ├── index.html
-  ├── assets/
-  └── reto/
-      ├── clave/
-      ├── menu/
-      ├── anim/
-      └── texto/
-```
-
-## Nota
-
-Estilo inspirado por el proyecto **Abstract** (Frontend Practice) sin reutilizar contenido protegido.
