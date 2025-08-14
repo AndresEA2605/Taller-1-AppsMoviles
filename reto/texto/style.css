@@ -1,0 +1,6 @@
+.wrap{max-width:680px;margin:40px auto;padding:20px;border:1px solid #eee;border-radius:16px;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.back{text-decoration:none;color:#635bff}
+label{display:block;margin:.5rem 0}
+textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:10px;font-size:16px;resize:vertical}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+progress{width:40%;height:12px}

@@ -1,0 +1,29 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#0b0c0c;background:#fff}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+.site-header{position:sticky;top:0;background:#0b0c0c;color:#fff;border-bottom:1px solid #222;z-index:50}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.logo{color:#fff;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:.5px}
+.logo span{color:#635bff}
+.nav a{color:#cfd3d9;text-decoration:none;margin:0 10px;font-size:14px}
+.nav a:hover{color:#fff}
+.btn{display:inline-block;border:1px solid #0b0c0c;padding:10px 14px;border-radius:10px;text-decoration:none;color:#0b0c0c;background:#fff;transition:.2s}
+.btn:hover{transform:translateY(-1px)}
+.btn.primary{background:#0b0c0c;color:#fff;border-color:#0b0c0c}
+.hero{padding:80px 0 40px;background:linear-gradient(180deg,#faf9ff,transparent)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+.search-card{background:#fff;border:1px solid #eee;border-radius:16px;padding:20px;box-shadow:0 10px 20px rgba(0,0,0,.06)}
+.search-card h3{margin-top:0}
+.search-card input{width:100%;padding:12px 14px;border:1px solid #ddd;border-radius:10px;margin-bottom:10px;font-size:14px}
+.search-card ul{list-style:none;margin:0;padding:0;max-height:220px;overflow:auto}
+.search-card li{padding:10px;border:1px solid #f0f0f0;border-radius:8px;margin-bottom:8px;cursor:pointer}
+.search-card li:hover{background:#fafafa}
+.features{padding:50px 0}
+.grid-3{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{border:1px solid #eee;border-radius:16px;padding:18px}
+.card .link{text-decoration:none}
+.projects,.about{padding:40px 0}
+pre{background:#0b0c0c;color:#cfd3d9;padding:16px;border-radius:12px;overflow:auto}
+.site-footer{border-top:1px solid #eee;padding:20px 0;background:#fafafa}
+.footer-inner{display:flex;justify-content:space-between;align-items:center}
+@media (max-width:900px){.hero-grid{grid-template-columns:1fr}.grid-3{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:600px){.grid-3{grid-template-columns:1fr}}

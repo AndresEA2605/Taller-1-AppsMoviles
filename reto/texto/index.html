@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de Caracteres | Reto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="../../index.html">← Volver</a>
+    <h1>Contador de caracteres</h1>
+    <label for="msg">Escribe tu mensaje</label>
+    <textarea id="msg" rows="8" maxlength="200" placeholder="Escribe aquí..."></textarea>
+    <div class="row">
+      <span>Caracteres: <strong id="count">0</strong>/200</span>
+      <progress id="prog" value="0" max="200"></progress>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

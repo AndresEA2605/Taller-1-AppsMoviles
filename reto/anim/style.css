@@ -1,0 +1,12 @@
+.back{position:fixed;top:16px;left:16px;text-decoration:none;color:#0b0c0c;background:#fff;padding:6px 10px;border-radius:8px;border:1px solid #eee}
+.scene{height:100vh;display:grid;place-items:center;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+.sky{position:relative;width:100%;height:60vh;background:linear-gradient(180deg,#9ad0ff,#cbe9ff)}
+.sun{position:absolute;top:40px;left:40px;width:80px;height:80px;border-radius:50%;background:#ffd166;box-shadow:0 0 40px rgba(255,209,102,.8)}
+.cloud{position:absolute;top:60px;width:160px;height:60px;background:#fff;border-radius:40px;box-shadow:40px 0 0 0 #fff,80px 0 0 0 #fff}
+.c1{left:-200px;animation:float 12s linear infinite}
+.c2{left:-100px;top:110px;animation:float 16s linear infinite reverse}
+@keyframes float{to{transform:translateX(140vw)}}
+.ground{width:100%;height:40vh;background:#7bd389;display:flex;align-items:flex-end;justify-content:center;position:relative}
+.car{font-size:48px;position:absolute;left:-80px;bottom:24px;transform:translateX(0);transition:transform 2s cubic-bezier(.4,.0,.2,1)}
+.run .car{transform:translateX(90vw)}
+#play{position:absolute;bottom:20px;right:20px;padding:10px 14px;border:1px solid #0b0c0c;border-radius:10px;background:#fff;cursor:pointer}

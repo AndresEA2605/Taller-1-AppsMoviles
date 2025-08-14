@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retos | Taller App Móviles</title>
+  <link rel="stylesheet" href="./assets/css/main.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">AppsMoviles<span>•</span>Retos</a>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a class="btn primary" href="reto/menu/index.html">ScrollPage</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Solución de los retos</h1>
+          <p>Implementación basada en el ejercicio <em> En Abstract</em> de Frontend Practice. Incluye teclado de clave, navegación con scroll, animación con sonido y contador de caracteres.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="reto/clave/index.html">Ingresar clave</a>
+            <a class="btn" href="reto/anim/index.html">Animación + Sonido</a>
+            <a class="btn" href="reto/texto/index.html">Contador de texto</a>
+          </div>
+        </div>
+        <div class="search-card">
+          <h3>Explora módulos</h3>
+          <input id="search" type="search" placeholder="Busca: clave, menu, anim, texto"/>
+          <ul id="results">
+            <li data-link="reto/clave/index.html">Teclado de clave</li>
+            <li data-link="reto/menu/index.html">Menú con scroll</li>
+            <li data-link="reto/anim/index.html">Animación + sonido</li>
+            <li data-link="reto/texto/index.html">Contador de caracteres</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="funcionalidades" class="features">
+      <div class="container grid-3">
+        <article class="card">
+          <h4>Teclado de clave</h4>
+          <p>Simula la sucursal virtual con teclado numérico, máscara y validación.</p>
+          <a class="link" href="reto/clave/index.html">Probar →</a>
+        </article>
+        <article class="card">
+          <h4>Menú con scroll</h4>
+          <p>Navegación suave hacia subsecciones dentro de la misma página.</p>
+          <a class="link" href="reto/menu/index.html">Probar →</a>
+        </article>
+        <article class="card">
+          <h4>Animación + sonido</h4>
+          <p>Escena con elementos animados y efectos de audio sincronizados.</p>
+          <a class="link" href="reto/anim/index.html">Probar →</a>
+        </article>
+        <article class="card">
+          <h4>Contador de caracteres</h4>
+          <p>Campo de texto que actualiza en tiempo real el conteo.</p>
+          <a class="link" href="reto/texto/index.html">Probar →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects">
+      <div class="container">
+        <h2>Estructura del reto</h2>
+<pre><code>reto/
+├── clave/
+├── menu/
+├── anim/
+└── texto/</code></pre>
+      </div>
+    </section>
+
+    <section id="acerca" class="about">
+      <div class="container">
+        <h2>Acerca</h2>
+        <p>Maquetado minimalista para practicar interacción y DOM con JavaScript. Inspirado en la estética de Abstract (Frontend Practice).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© 2025 Reto JS</span>
+      <a href="https://www.frontendpractice.com/projects/abstract" target="_blank" rel="noreferrer">Proyecto de referencia</a>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

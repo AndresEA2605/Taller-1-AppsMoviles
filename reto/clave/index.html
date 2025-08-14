@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teclado de Clave | Reto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="back" href="../../index.html">← Volver</a>
+      <h1>Ingreso de clave</h1>
+      <p>Ingresa tu PIN usando el teclado numérico.</p>
+    </header>
+    <main>
+      <div class="pin-display" aria-label="PIN ingresado" role="status">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <div class="status" id="status" aria-live="polite"></div>
+      <div class="keypad" id="keypad">
+        <button>1</button><button>2</button><button>3</button>
+        <button>4</button><button>5</button><button>6</button>
+        <button>7</button><button>8</button><button>9</button>
+        <button class="alt">Borrar</button><button>0</button><button class="alt">OK</button>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
